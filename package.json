@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/aryalg/deerwalk_mern_class/issues"
   },
-  "homepage": "https://github.com/aryalg/deerwalk_mern_class#readme"
+  "homepage": "https://github.com/aryalg/deerwalk_mern_class#readme",
+  "dependencies": {
+    "mongoose": "^6.1.5"
+  }
 }
