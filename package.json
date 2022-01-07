@@ -1,0 +1,19 @@
+{
+  "name": "deerwalk_mern_class",
+  "version": "1.0.0",
+  "description": "E-commerce app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aryalg/deerwalk_mern_class.git"
+  },
+  "author": "Bikram Aryal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aryalg/deerwalk_mern_class/issues"
+  },
+  "homepage": "https://github.com/aryalg/deerwalk_mern_class#readme"
+}
