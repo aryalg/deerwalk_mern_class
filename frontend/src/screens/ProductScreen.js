@@ -1,7 +1,7 @@
 import React from "react";
 
-const ProductScreen = () => {
-  return <div>Product Screen</div>;
+const ProductScreen = ({ age }) => {
+  return <div>Product Screen {age}</div>;
 };
 
 export default ProductScreen;

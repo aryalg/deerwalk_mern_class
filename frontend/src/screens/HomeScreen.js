@@ -1,13 +1,23 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import { Col, Row } from "react-bootstrap";
+import Product from "../components/Product";
+import products from "../products";
+
+// value - 12 (Small Screen - single product (take full 12))
+// value - 6 (Medium Screen - 2 product)
 
 const HomeScreen = () => {
   return (
-    <div>
-      <Header />
-      <Footer />
-    </div>
+    <>
+      <h1>Latest Products</h1>
+      <Row>
+        {products.map((product) => (
+          <Col sm={12} md={6} lg={4} xl={3}>
+            <Product product={product} />
+          </Col>
+        ))}
+      </Row>
+    </>
   );
 };
 
