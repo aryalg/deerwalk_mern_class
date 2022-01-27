@@ -21,7 +21,7 @@ const products = [
     brand: "Apple",
     category: "Electronics",
     price: 1299,
-    countInStock: 10,
+    countInStock: 0,
     rating: 3.5,
     numReviews: 5,
   },
