@@ -7,6 +7,8 @@ dotenv.config();
 
 const app = express();
 
+app.use(cors());
+
 const products = [
   {
     _id: "1",
@@ -36,7 +38,7 @@ const products = [
   },
   {
     _id: "3",
-    name: "Macbook Pro",
+    name: "Apple Watch 7",
     image: "/images/macbook.jpeg",
     description:
       "The new MacBook Pro delivers game-changing performance for pros. With the powerful M1 Pro chip to power through your work while enjoying incredible",
@@ -127,18 +129,21 @@ const products = [
   },
 ];
 
+// Home route just for testing
 app.get("/", (req, res) => {
   res.send("API is Running");
 });
 
+// Get All Products
 app.get("/api/v1/products", (req, res) => {
-  res.json({ products });
+  res.json(products);
 });
 
+// Get Single product with id
 app.get("/api/v1/products/:id", (req, res) => {
   const product = products.find((p) => p._id === req.params.id);
 
-  res.json({ product });
+  res.json(product);
 });
 
 app.listen(4500, console.log("Server is running on port 4500"));
