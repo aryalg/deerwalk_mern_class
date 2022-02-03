@@ -17,3 +17,10 @@ https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
 
 2. Study and experiment with npm package: 
 https://www.npmjs.com/package/express-async-handler
+
+3. Error Handling Middleware
+https://expressjs.com/en/guide/error-handling.html
+
+
+### Questions Need to Resolve?
+Adding additional field to mongoose returned data (obj) not updating that doc.
