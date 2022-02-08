@@ -30,3 +30,13 @@ Adding additional field to mongoose returned data (obj) not updating that doc.
 ### Redux as state management solution for React:
 
 1. Get clear concept of redux here: https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/#:~:text=Redux%20allows%20you%20to%20manage,come%20with%20tradeoffs%20and%20constraints.
+
+
+
+Assignments:
+
+1. Study redux docs: https://www.npmjs.com/package/redux
+
+2. Install Redux Devtool Chrome Extension: https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+
+3. What is Redux Thunk? https://redux.js.org/usage/writing-logic-thunks
