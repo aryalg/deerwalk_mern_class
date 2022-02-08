@@ -24,3 +24,9 @@ https://expressjs.com/en/guide/error-handling.html
 
 ### Questions Need to Resolve?
 Adding additional field to mongoose returned data (obj) not updating that doc.
+
+
+
+### Redux as state management solution for React:
+
+1. Get clear concept of redux here: https://blog.logrocket.com/why-use-redux-reasons-with-clear-examples-d21bffd5835/#:~:text=Redux%20allows%20you%20to%20manage,come%20with%20tradeoffs%20and%20constraints.
