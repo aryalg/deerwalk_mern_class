@@ -10,7 +10,7 @@ export const listProducts = () => async (dispatch) => {
     dispatch({ type: PRODUCT_LIST_REQUEST });
 
     // Code with may throw error -> can be catched by catch block
-    const { data } = await axios.get("http://localhost:4500/api/v1/product");
+    const { data } = await axios.get("http://localhost:4500/api/v1/products");
 
     dispatch({
       type: PRODUCT_LIST_SUCCESS,
