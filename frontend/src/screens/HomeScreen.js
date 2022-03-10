@@ -5,6 +5,8 @@ import { useDispatch, useSelector } from "react-redux";
 // import products from "../products";
 
 import { listProducts } from "../actions/productActions";
+import Loader from "../components/Loader";
+import Message from "../components/Message";
 
 // value - 12 (Small Screen - single product (take full 12))
 // value - 6 (Medium Screen - 2 product)
@@ -23,9 +25,9 @@ const HomeScreen = () => {
     <>
       <h1>Latest Products</h1>
       {loading ? (
-        <h2>Loading</h2>
+        <Loader />
       ) : error ? (
-        <h3>Error.. {error}</h3>
+        <Message variant="danger">{error}</Message>
       ) : (
         <Row>
           {products.map((product) => (
